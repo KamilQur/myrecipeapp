@@ -1,4 +1,3 @@
-Test Rails App Blog App - Kamil Qureshi b   
 
 
 == README
