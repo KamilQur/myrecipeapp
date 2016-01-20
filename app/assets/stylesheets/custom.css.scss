@@ -1,3 +1,11 @@
+$navbar-default-bg: #312312;
+
+$light-orange: #ff8c00;
+
+$navbar-default-color: $light-orange;
+
+
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -5,33 +13,41 @@
 
 
 #logo {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	float: left;
-	margin-right:10px;
-	font-size: 2em;
-	color: #fff;
-	text-transform:uppercase;
-	letter-spacing: -1px;
-	padding-top: 9px;
+
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+font-size: 2em;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: -1px;
+padding-top: 9px;
+font-weight: bold;
+
 }
+
+
 
 
 #logo:hover {
-	color: white;
-	text-decoration: none;
-}
 
+color: white;
+
+text-decoration: none;
+ 
+}
 
 body {
-	padding-top: 80px;
+
+padding-top: 100px; 
+
 }
 
-
 .nav-items {
-	margin-left:25px;
+	margin-left:5px; 
 	float:left;
-	margin-top:20px;
+	margin-top:5px;
 }
 
 .center {
@@ -72,20 +88,33 @@ h2 {
 }
 
 
+.chef_info {
+	margin-top: 10px;
+}
+
+.gravatar {
+	border-radius: 10px;
+}
 
 
 
+.well {
+	background-color:#EDEDED; 
+}
+
+
+input,textarea,select,.uneditable-input {
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	width: 100%;
+	margin-bottom:15px; 
+}
 
 
 
-
-
-
-
-
-
-
-
+input {
+	height: auto !important;
+}
 
 
 
