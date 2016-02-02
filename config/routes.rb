@@ -13,7 +13,25 @@ get 'recipes/:id',to: 'recipes#show', as: 'recipe'
 delete '/recipes/:id', to: 'recipes#destroy'
  
 
+resources :recipes do 
+   member do 
+    post 'like'
+   end
+  end    
 
+
+ resources :chefs , except: [:new]
+
+ get '/register', to: 'chefs#new' 
+
+ post '/login', to: 'logins#create' 
+
+ get '/login', to: 'logins#new'
+
+ get '/logout', to: 'logins#destroy'
+
+
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.
